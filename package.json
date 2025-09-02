@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "turbo run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Hong Shu-man <hongshuman@outlook.com> (https://github.com/hongshuman/)",
   "license": "MIT",
-  "packageManager": "pnpm@10.13.0"
+  "packageManager": "pnpm@10.13.0",
+  "devDependencies": {
+    "turbo": "^2.5.6"
+  }
 }
